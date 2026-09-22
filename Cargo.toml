@@ -1,14 +1,15 @@
 [package]
-name = "blstrs"
+name = "equs-blstrs"
 description = "High performance implementation of BLS12 381"
-version = "0.6.1"
-authors = ["dignifiedquire <me@dignifiedquire.com>"]
+version = "0.1.0"
 edition = "2018"
 license = "MIT/Apache-2.0"
-repository = "https://github.com/filecoin-project/blstrs"
-documentation = "https://docs.rs/blstrs"
+repository = "https://github.com/equs-ai/blstrs"
 categories = ["cryptography", "algorithms"]
 readme = "README.md"
+
+[lib]
+name = "blstrs"
 
 [package.metadata.docs.rs]
 rustdoc-args = [ "--html-in-header", "katex-header.html" ]
