@@ -5,6 +5,7 @@ version = "0.1.0"
 edition = "2018"
 license = "MIT/Apache-2.0"
 repository = "https://github.com/equs-ai/blstrs"
+exclude = [".github/", ".gitignore", "rust-toolchain"]
 categories = ["cryptography", "algorithms"]
 readme = "README.md"
 
